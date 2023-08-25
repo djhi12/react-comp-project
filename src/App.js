@@ -9,7 +9,7 @@ import eventImage from './img/events.png';
 import keyConcepts from './img/key-concepts.png';
 
 import Concepts from './components/concepts/Concepts';
-import Header from './components/header/Header';
+
 
 const concepts = [
   {
