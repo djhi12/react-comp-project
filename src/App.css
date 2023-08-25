@@ -2,11 +2,6 @@
   margin-top: 3% !important;
 }
 
-.row-border {
-  border-style: none !important ;
+.App {
+  background: #ff8d00 !important
 }
-
-.container-border {
-  border-style: none !important ;
-}
-
