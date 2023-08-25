@@ -1,0 +1,14 @@
+
+.img-header {
+ width: 20% !important;
+ margin-left: auto !important;
+ margin-right: auto !important;
+ display: block;
+}
+
+.sub-header {
+    margin-left: auto  !important;
+    margin-right: auto !important;
+    display: block !important;
+    text-align: center !important;
+}

@@ -1,0 +1,25 @@
+
+
+.card {
+    width:80% !important;
+    /* margin-left: 10% !important; */
+    margin-left: 10% !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+    transition: 0.3s !important;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2) !important;
+  } 
+
+.card-body {
+    text-align: center !important;
+    background-image: linear-gradient(red , yellow) !important;
+}
+
+.img-concepts {
+    width: 50% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+}
