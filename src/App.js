@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <h1 className='bg-success'>Header</h1>
+      <p>Samplpe text here.</p>
     </div>
   );
 }
