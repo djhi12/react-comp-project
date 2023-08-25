@@ -1,10 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import './components/header/Header.css';
 import './App.css';
 
 import componentImage from './img/components.png';
 import stateImage from './img/state.png';
 import eventImage from './img/events.png';
+import keyConcepts from './img/key-concepts.png';
 
 import Concepts from './components/concepts/Concepts';
 import Header from './components/header/Header';
@@ -32,7 +34,13 @@ function App() {
   return (
     <div className="App">
       {/* Header */}
-      <Header />
+      <header className="header bg-warning">
+        <div class="sub-header">
+          <img className="img-header" src={keyConcepts} alt="Medal Badge with Star" />
+          <h5>Key React Components</h5>
+          <p>Selected key React concepts you should know about.</p>
+        </div>
+      </header>
 
       {/* Card */}
       <div className="container">
