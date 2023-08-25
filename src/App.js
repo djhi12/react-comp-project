@@ -34,7 +34,7 @@ function App() {
   return (
     <div className="App">
       {/* Header */}
-      <header className="header bg-warning">
+      <header className="header">
         <div class="sub-header">
           <img className="img-header" src={keyConcepts} alt="Medal Badge with Star" />
           <h5>Key React Components</h5>
@@ -43,8 +43,8 @@ function App() {
       </header>
 
       {/* Card */}
-      <div className="container">
-        <div class="row">
+      <div className="container container-border">
+        <div class="row row-border">
           <div class="col-sm concept">
             <Concepts
               title={concepts[0].title}
